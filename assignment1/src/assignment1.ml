@@ -186,7 +186,7 @@ let _ = print_string ("Testing your code ...\n")
 let main () =
   let error_count = ref 0 in
 
-  (* Testcases for pow *)
+  (* Testcases for pow*)
   let _ =
     try
       assert (pow 3 1 = 3);
